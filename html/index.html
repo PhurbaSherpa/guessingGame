@@ -1,0 +1,46 @@
+<html <!DOCTYPE html>
+  <html class="no-js">
+    <head>
+      <meta charset="utf-8" />
+      <title>Guessing Game</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="/css/main.css" />
+    </head>
+    <body>
+      <div class="container" id="game">
+        <h1>
+          Welcome to the Guessing Game
+        </h1>
+        <div class="container">
+          <div class="container" id="visual">
+            <h3 id="current">Current Guess</h3>
+            <p id="numberGuessed">Enter a guess</p>
+          </div class="container">
+
+          <div class="container" id="options">
+            <input id="guess" type="number" placeholder="Enter Guess"/>
+            <button type="submit" id="submission" class="button">Submit Guess</button>
+            <button id="reset" class="button">Play Again</button>
+            <button id="hint" class="button">Hint</button>
+          </div class="container">
+
+          <div class="container" id="guesses">
+            <h3>Guesses</h3>
+            <div id="list">
+
+            </div>
+
+          </div class="container">
+        </div class="container">
+      </div class="container">
+
+      <script src="/js/game.js" ></script>
+    </body>
+  </html>
+</html>

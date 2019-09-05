@@ -1,0 +1,14 @@
+body {
+  background-color: aquamarine;
+}
+h1 {
+  margin: 50px;
+}
+#options {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#game {
+  text-align: center;
+}
